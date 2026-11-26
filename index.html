@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Drink Feito do França</title>
+<meta name="description" content="Drinks autorais engarrafados do Drink Feito do França. Veja o cardápio.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@400;900&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body id="topo">
+  <div class="pagina">
+    <header class="nav">
+      <nav class="nav-links" id="nav-links" aria-label="Principal"><a class="nav-link" href="#cardapio">Cardápio</a><a class="nav-link" href="#sobre">Por quê</a><a class="nav-link" href="carrinho.html">Carrinho</a></nav>
+      <a class="mark" href="#topo" aria-label="Drink Feito do França"><img src="img/df_logo.png" alt=""></a>
+      <div class="nav-acoes">
+        <a class="botao botao--rosa" href="login.html">Entrar</a>
+        <button class="menu-btn" type="button" data-menu-btn aria-expanded="false" aria-controls="nav-links" aria-label="Abrir menu"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M3 5h14M3 10h14M3 15h14"/></svg></button>
+      </div>
+    </header>
+    <section class="hero" aria-labelledby="hero-titulo">
+      <div class="hero-texto">
+        <div class="lockup" role="img" aria-label="Drink Feito do França">
+          <span class="lk-big" aria-hidden="true">Drink</span>
+          <span class="lk-big" aria-hidden="true">Feito</span>
+          <span class="lk-small" aria-hidden="true">do França.</span>
+        </div>
+        <h1 class="display" id="hero-titulo"><span>Drink feito.</span><span>É só curtir.</span></h1>
+        <p class="hero-sub">Drinks autorais na garrafa, feitos com ingredientes de verdade para o seu momento.</p>
+        <a class="botao botao--grande" href="#cardapio">Ver cardápio</a>
+      </div>
+      <figure class="hero-foto"><img src="img/imagem hero.jpeg" alt="Duas mãos brindando garrafas do Drink Feito do França, uma vermelha e outra amarela, contra o céu azul."></figure>
+    </section>
+    <section class="porque" id="sobre" aria-labelledby="porque-titulo">
+      <h2 class="display" id="porque-titulo">Por que o Feito do França?</h2>
+      <ul class="why-grid"><li class="why-item tom-rosa"><h3 class="display">Natural e premium</h3><p>Ingredientes de verdade, escolhidos para aparecer no copo.</p></li><li class="why-item tom-amarelo"><h3 class="display">Receitas autorais</h3><p>Clássicos reinventados, como o Caju Spritz com cajuína.</p></li><li class="why-item tom-lilas"><h3 class="display">Pronto pra curtir</h3><p>Abriu a garrafa, serviu com gelo e pronto. Sem bagunça.</p></li><li class="why-item tom-amarelo"><h3 class="display">Pra toda ocasião</h3><p>Da resenha em casa à festa com os amigos.</p></li></ul>
+    </section>
+    <section class="cardapio" id="cardapio" aria-labelledby="cardapio-titulo">
+      <div class="cardapio-topo">
+        <h2 class="display" id="cardapio-titulo">Nosso cardápio</h2>
+        <div class="setas" data-setas>
+          <button class="seta" type="button" data-prev aria-label="Drinks anteriores"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 3 5 8l5 5"/></svg></button>
+          <button class="seta" type="button" data-next aria-label="Próximos drinks"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3l5 5-5 5"/></svg></button>
+        </div>
+      </div>
+      <ul class="cards" data-cards tabindex="0" aria-label="Cardápio de drinks">
+        <li class="card" id="drink-caipi">
+          <div class="card-media"><img src="img/caipi.jpeg" alt="Garrafa do drink Caipi" loading="lazy"></div>
+          <div class="card-linha">
+            <h3 class="card-nome display">Caipi</h3>
+            <span class="card-preco">R$ 18,00</span>
+          </div>
+          <p class="card-desc">A clássica caipirinha brasileira, ultra refrescante e com o equilíbrio perfeito entre o cítrico e o doce.</p>
+          <ul class="chips" aria-label="Ingredientes"><li>Cachaça</li><li>Limão</li><li>Açúcar</li><li>Gelo</li></ul>
+          <button class="botao botao--rosa botao-menor adicionar-produto" type="button">Adicionar ao carrinho</button>
+        </li>
+        <li class="card" id="drink-caju-spritz">
+          <div class="card-media"><img src="img/caju_spritz.jpeg" alt="Garrafa do drink Caju Spritz" loading="lazy"></div>
+          <div class="card-linha">
+            <h3 class="card-nome display">Caju Spritz</h3>
+            <span class="card-preco">R$ 26,50</span>
+          </div>
+          <p class="card-desc">Uma releitura tropical do clássico italiano, trocando a tradicional água com gás pelo sabor único da cajuína nordestina.</p>
+          <ul class="chips" aria-label="Ingredientes"><li>Aperol</li><li>Espumante Prosecco</li><li>Cajuína</li><li>Gelo</li><li>Rodela de caju</li></ul>
+          <button class="botao botao--rosa botao-menor adicionar-produto" type="button">Adicionar ao carrinho</button>
+        </li>
+        <li class="card" id="drink-heart-gin">
+          <div class="card-media"><img src="img/heart_gin.jpg" alt="Garrafa do drink Heart Gin" loading="lazy"></div>
+          <div class="card-linha">
+            <h3 class="card-nome display">Heart Gin</h3>
+            <span class="card-preco">R$ 28,00</span>
+          </div>
+          <p class="card-desc">Um drink visualmente lindo, adocicado e perfumado, perfeito para quem ama a combinação de gin com o azedinho das frutas.</p>
+          <ul class="chips" aria-label="Ingredientes"><li>Gin</li><li>Água Tônica</li><li>Morango</li><li>Framboesa</li><li>Amora</li><li>Gelo</li></ul>
+          <button class="botao botao--rosa botao-menor adicionar-produto" type="button">Adicionar ao carrinho</button>
+        </li>
+        <li class="card" id="drink-coca-du-montilla">
+          <div class="card-media"><img src="img/coca_montilla.jpg" alt="Garrafa do drink Coca du Montilla" loading="lazy"></div>
+          <div class="card-linha">
+            <h3 class="card-nome display">Coca du Montilla</h3>
+            <span class="card-preco">R$ 16,00</span>
+          </div>
+          <p class="card-desc">A evolução do famoso &#x27;rum com cola&#x27;, utilizando o clássico Montilla combinado com uma cola artesanal menos doce e mais especiada.</p>
+          <ul class="chips" aria-label="Ingredientes"><li>Rum Montilla Carta Oro</li><li>Refrigerante de Cola Artesanal</li><li>Gotas de limão</li><li>Gelo</li></ul>
+          <button class="botao botao--rosa botao-menor adicionar-produto" type="button">Adicionar ao carrinho</button>
+        </li>
+      </ul>
+      <p class="cardapio-nota"><a href="login.html">Escolha o seu e peça agora →</a></p>
+    </section>
+    <section class="ultimas-compras" id="ultimas-compras" aria-labelledby="ultimas-compras-titulo">
+      <div class="ultimas-compras-topo">
+        <div>
+          <h2 class="display" id="ultimas-compras-titulo">Últimas compras</h2>
+          <p>Os pedidos enviados recentemente por aqui.</p>
+        </div>
+        <span class="compras-atualizacao">Atualizado automaticamente</span>
+      </div>
+      <div class="compras-lista" id="compras-lista" aria-live="polite">
+        <p class="compras-vazio">As compras recentes aparecerão aqui quando a API estiver conectada.</p>
+      </div>
+    </section>
+    <footer class="rodape">
+      <div class="rodape-marca"><a class="mark" href="#topo" aria-label="Drink Feito do França"><img src="img/df_logo.png" alt=""></a><span class="display">Drink Feito do França</span></div>
+      <p class="rodape-texto">© 2026 Drink Feito do França. Todos os direitos reservados.</p>
+    </footer>
+  </div>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script src="config.js"></script><script src="commerce.js"></script><script src="catalogo.js"></script><script src="compras.js"></script>
+</body>
+</html>
