@@ -130,7 +130,7 @@ O servidor será iniciado na porta 8000, salvo se outra porta estiver configurad
 
 O PBG Drinks du França foi desenvolvido com o objetivo de aplicar conhecimentos de desenvolvimento web, integração de banco de dados, programação JavaScript e construção de aplicações, como parte do trabalho da matéria Projeto de Banco de dados da Universidade Santo Augustinho.
 
-# LINK DO VÍDEO:&#x20;
+# LINK DO VÍDEO:&#x20;https://drive.google.com/file/d/1eBRYHFJc0Mzq1cekd-sdHHaf_tNzbJDK/view?usp=sharing
 
 
 ## Professsor: Anderson Soares Costa
